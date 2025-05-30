@@ -1,17 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
-body{
-    background: #ffffff;
-    color: #000000;
-}
-#header{
-    width: 100%;
+
+
+.sidebar {
+    background-color: red;
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
     height: 100vh;
-    background-image: url("background.png");
-    background-size: cover;
-    background-position: center;
+}
+.sidebar nav{
+    padding: 72px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    /* //text-align: center; */
+}
+
+.main {
+    background-color: yellow;
+    width: 90vw;
+    
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(255, 255, 255);
+    height: 78vh;
+    width: 80vw;
+    margin: 44px auto;
+    display: flex;
+        justify-content: space-around;
+}
+.devPic{
+    width: 117vh;
+    justify-content: space-around;
 }
