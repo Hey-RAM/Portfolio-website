@@ -9,13 +9,15 @@
 
 
 .sidebar {
-    background-color: rgba(183, 178, 178, 0.881);
-    width: 25vh;
+    background-color: #DBDBDB;
+    width: 31vh;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
+    color: antiquewhite;
+    
 }
 .sidebar nav{
-    padding: 72px;
+    padding: 40px
     
 }
 .sidebar nav li{
@@ -24,6 +26,11 @@
     padding: 33px ;
 
     /* //text-align: center; */
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 .main {
@@ -67,6 +74,7 @@
     max-width: 500px;
     line-height: 1.5;
     color: #333;
+    gap: 12px;
 }
 
 .buttons button {
@@ -81,7 +89,7 @@
     transition: all 0.3s ease;
 }
 .buttons button:hover {
-    background-color: rgba(183, 178, 178, 0.881);
+    background-color: #8EA8C3;
 }
 .devPic {
     position: relative;
@@ -125,3 +133,6 @@
 .devPic:hover::before {
     opacity: 1;
 }
+
+
+  
