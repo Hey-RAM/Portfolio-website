@@ -134,5 +134,24 @@
     opacity: 1;
 }
 
+.contactForm {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactForm div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 12px;
+    color: #333;
+}
+
+
 
   
