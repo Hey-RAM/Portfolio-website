@@ -142,14 +142,25 @@
 .contactForm h1{
     font-family: 'Source Code Pro', monospace;
     text-align: center;
+    text-transform: ;
 }
 
-.contactForm div{
-    padding: 10px 0;
+.contactForm form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactForm form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
 }
 #emailHelp{
     font-size: 12px;
     color: #333;
+    margin: 0 5px;
 }
 
 
