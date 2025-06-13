@@ -67,6 +67,12 @@ section{
     font-size: 34px;
     font-family:"Roboto", sans-serif; 
 }
+.autotype{
+    
+    position: fixed;
+    left: 115px;
+    top: 435px;
+}
 section>.image1>img{
     height: 500px;
     width: 700px;   
